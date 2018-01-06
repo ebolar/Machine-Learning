@@ -1,7 +1,7 @@
 # Machine-Learning
 A collection of machine learning notes and reference material
 ...
-* **Notes** - Summary information included in the WiKi
+* **Notes** - Summary information
 
 ...
 ## Projects
