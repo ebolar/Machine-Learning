@@ -3,13 +3,7 @@ cat("Iris Classification Problem\n")
 cat("===========================\n")
 
 # ===================================================================
-# 1. Prepare Problem
-cat("\n\nPrepare problem\n---------------------------------------\n")
-# a) Load libraries
-
-     library(caret)
-     library(corrplot)
-     #library(mlbench)
+# 0. Environment setup
 
      # Multicore parallelisation
      # -------------------------
@@ -32,6 +26,19 @@ cat("\n\nPrepare problem\n---------------------------------------\n")
      #... algorithm goes here
      #stopCluster(myclust)
      #
+     
+     options(width=as.integer(Sys.getenv("COLUMNS")))
+
+# ===================================================================
+# 1. Prepare Problem
+cat("\n\nPrepare problem\n---------------------------------------\n")
+# a) Load libraries
+
+     library(caret)
+     library(corrplot)
+     #library(mlbench)
+
+
 
 
 # b) Load dataset
